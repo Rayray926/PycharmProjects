@@ -1,0 +1,999 @@
+请求报错了HTTPSConnectionPool(host='nsp.uban360.net', port=443): Max retries exceeded with url: /suppay/saas/account/save (Caused by SSLError(SSLCertVerificationError("hostname 'nsp.uban360.net' doesn't match 'npp.uban360.net'")))
+请求报错了HTTPSConnectionPool(host='nsp.uban360.net', port=443): Max retries exceeded with url: /suppay/saas/account/save (Caused by SSLError(SSLCertVerificationError("hostname 'nsp.uban360.net' doesn't match 'npp.uban360.net'")))
+请求报错了HTTPSConnectionPool(host='nsp.uban360.net', port=443): Max retries exceeded with url: /suppay/saas/account/save (Caused by SSLError(SSLCertVerificationError("hostname 'nsp.uban360.net' doesn't match 'npp.uban360.net'")))
+获取到的结果是：{'code': 200, 'success': True}
+获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'}
+获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'}
+获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'}
+获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'}
+获取到的结果是：{'code': 200, 'success': True}
+获取到的结果是：{'code': 200, 'success': True}
+获取到的结果是：{'code': 200, 'success': True}
+获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'}
+获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'}
+获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'}
+获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'}
+获取到的结果是：{'code': 200, 'success': True}
+获取到的结果是：{'code': 200, 'success': True}
+获取到的结果是：{'code': 200, 'success': True}
+获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'}
+获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'}
+获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'}
+获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'}
+获取到的结果是：{'code': 200, 'success': True}
+获取到的结果是：{'code': 200, 'success': True}
+2020-01-06 13:39:53,648 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:39:53,665 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:39:53,678 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:39:53,696 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:39:53,712 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:39:53,748 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:39:53,800 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:45:12,607 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:46:08,340 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:46:54,560 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:48:17,819 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:48:37,210 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:49:17,366 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:49:41,436 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:49:41,476 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:49:41,500 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:49:41,523 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:49:41,547 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:49:41,593 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:49:41,659 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:51:03,007 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:51:48,095 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:52:39,018 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:53:03,027 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:53:29,302 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:53:29,368 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:53:29,417 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:53:29,477 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:53:29,552 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 13:53:29,616 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:53:29,704 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 13:59:49,929 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 14:01:58,384 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 14:27:48,922 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 14:27:48,975 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 14:27:49,032 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 14:27:49,083 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 14:27:49,132 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-06 14:27:49,197 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-06 14:27:49,392 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 11:20:49,178 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 11:20:49,236 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-07 11:20:49,289 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-07 11:20:49,341 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-07 11:20:49,390 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-07 11:20:50,483 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 11:20:50,589 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 11:38:11,939 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 11:38:11,996 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-07 11:38:12,049 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-07 11:38:12,097 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-07 11:38:12,145 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-07 11:38:12,212 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 11:38:12,305 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 13:53:53,814 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 13:53:53,822 - INFO -my_log.py -API_AUTO - 日志信息：执行用例前查看DB 
+2020-01-07 13:53:53,851 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 13:53:53,862 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 13:53:53,864 - INFO -my_log.py -API_AUTO - 日志信息：执行用例前查看DB 
+2020-01-07 13:53:53,890 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 13:53:53,892 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 13:53:53,892 - INFO -my_log.py -API_AUTO - 日志信息：执行用例前查看DB 
+2020-01-07 13:53:53,908 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 13:53:53,910 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 13:53:53,911 - INFO -my_log.py -API_AUTO - 日志信息：执行用例前查看DB 
+2020-01-07 13:53:53,924 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 13:55:17,399 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 13:55:17,404 - INFO -my_log.py -API_AUTO - 日志信息：执行用例前查看DB 
+2020-01-07 13:55:17,475 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 13:55:17,477 - INFO -my_log.py -API_AUTO - 日志信息：执行用例前查看DB 
+2020-01-07 13:55:17,509 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 13:55:17,509 - INFO -my_log.py -API_AUTO - 日志信息：执行用例前查看DB 
+2020-01-07 13:55:17,548 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 13:55:17,549 - INFO -my_log.py -API_AUTO - 日志信息：执行用例前查看DB 
+2020-01-07 14:03:10,676 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:03:10,716 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:03:10,719 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:03:10,769 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:03:10,772 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:03:10,807 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:03:10,809 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:03:10,850 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:06:16,250 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:07:51,806 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:07:51,814 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:07:51,881 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:07:51,882 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:08:31,388 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:08:31,396 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:08:31,447 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:08:31,447 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:08:40,985 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:08:40,994 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:08:41,030 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:08:41,033 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:08:54,308 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:08:54,314 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:08:54,490 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:08:54,491 - INFO -my_log.py -API_AUTO - 日志信息：开始执行测试用例 
+2020-01-07 14:18:21,223 - DEBUG -my_log.py -API_AUTO - 日志信息：ddd 
+2020-01-07 14:36:16,448 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:36:16,522 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:36:16,523 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:36:16,559 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:36:16,559 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:36:16,560 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:36:16,602 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB余额为100001,冻结余额为20033 
+2020-01-07 14:36:16,602 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:36:16,646 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:36:16,647 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:36:16,696 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB余额为100001,冻结余额为20034 
+2020-01-07 14:36:16,696 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:36:16,702 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:36:16,753 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:36:16,753 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:36:16,788 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:36:16,789 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:36:16,827 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:36:16,828 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:36:16,865 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:38:59,808 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:38:59,893 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:38:59,894 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:38:59,935 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:38:59,935 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:38:59,936 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:39:00,021 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB余额为100001,冻结余额为20034 
+2020-01-07 14:39:00,022 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:39:00,084 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:39:00,085 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:39:00,254 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后DB余额为100001,冻结余额为20035 
+2020-01-07 14:39:00,255 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:39:00,263 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:39:00,351 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:39:00,352 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:39:00,389 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:39:00,390 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:39:00,472 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:39:00,474 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:39:00,510 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:41:17,170 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:41:17,247 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:41:17,248 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:41:17,281 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:41:17,281 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:41:17,282 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:41:17,296 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20035 
+2020-01-07 14:41:17,296 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:41:17,339 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:41:17,340 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:41:17,359 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后DB冻结余额为20036 
+2020-01-07 14:41:17,359 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:41:17,360 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:41:17,396 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:41:17,397 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:41:17,460 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:41:17,461 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:41:17,494 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:41:17,495 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:41:17,550 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:41:17,551 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:41:17,616 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:41:59,082 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:41:59,157 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:41:59,158 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:41:59,224 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:41:59,224 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:41:59,224 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:41:59,249 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20036 
+2020-01-07 14:41:59,249 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:41:59,301 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:41:59,301 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:41:59,321 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:41:59,327 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:41:59,387 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:41:59,389 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:41:59,425 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:41:59,426 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:41:59,470 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:41:59,471 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:41:59,517 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:42:14,149 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:42:14,210 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:42:14,211 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:42:14,247 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:42:14,248 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:42:14,248 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:42:14,267 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20037 
+2020-01-07 14:42:14,268 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:42:14,317 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:42:14,318 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:42:14,341 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:42:14,346 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:42:14,393 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:42:14,394 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:42:14,434 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:42:14,435 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:42:14,477 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:42:14,478 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:42:14,517 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:42:54,155 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:42:54,271 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:42:54,271 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:42:54,335 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:42:54,336 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:42:54,342 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:42:54,367 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20038 
+2020-01-07 14:42:54,368 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:42:54,419 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:42:54,420 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:43:24,956 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:43:30,068 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:43:31,486 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:43:42,894 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:44:11,877 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:44:11,967 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:44:11,967 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:44:12,043 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:44:12,044 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:44:12,059 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:44:12,102 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20039 
+2020-01-07 14:44:12,102 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:44:12,151 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:44:12,154 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:44:21,068 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:44:21,096 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:44:21,191 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:44:21,193 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:44:21,659 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:44:21,667 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:44:21,752 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:44:21,755 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:44:22,266 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:44:55,597 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:44:55,700 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:44:55,701 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:44:55,770 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:44:55,771 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:44:55,786 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:44:55,817 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20040 
+2020-01-07 14:44:55,818 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:44:55,867 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:44:55,868 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:45:09,633 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:45:09,666 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:45:09,764 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:45:09,767 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:45:10,244 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:45:10,252 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:45:10,341 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:45:10,343 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:45:10,823 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:45:35,734 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:45:35,815 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:45:35,816 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:45:35,889 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:45:35,890 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:45:35,902 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:45:35,925 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20041 
+2020-01-07 14:45:35,926 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:45:35,970 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:45:57,919 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:46:27,624 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:46:27,736 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:46:27,736 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:46:27,805 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:46:27,806 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:46:27,825 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:46:27,844 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20042 
+2020-01-07 14:46:27,845 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:46:27,892 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:46:44,091 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:48:54,866 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:48:55,479 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:48:55,479 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:48:55,516 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:48:55,517 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:48:55,517 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:48:55,539 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20043 
+2020-01-07 14:48:55,540 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:48:55,588 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:48:55,588 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:48:55,610 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:48:55,614 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:48:55,669 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:48:55,670 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:48:55,707 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:48:55,708 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:48:55,753 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:48:55,753 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:48:55,797 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:50:56,264 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:50:56,333 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:50:56,335 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:50:56,367 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:50:56,367 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:50:56,367 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:50:56,382 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20044 
+2020-01-07 14:50:56,382 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:50:56,429 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:50:56,429 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:50:56,444 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:50:56,449 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:50:56,497 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:50:56,498 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:50:56,538 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:50:56,538 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:50:56,576 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:50:56,576 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:50:56,611 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:51:06,879 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:51:06,950 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:51:06,950 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:51:06,996 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:51:06,997 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:51:06,998 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:51:07,019 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20045 
+2020-01-07 14:51:07,019 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:51:07,060 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:51:07,061 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:51:07,088 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后DB冻结余额为20046 
+2020-01-07 14:51:07,088 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:51:07,089 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:51:07,128 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:51:07,128 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:51:07,177 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:51:07,178 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:51:07,211 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:51:07,211 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:51:07,245 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:51:07,246 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:51:07,307 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:51:33,547 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:51:33,609 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:51:33,609 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:51:33,643 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:51:33,643 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:51:33,643 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:51:33,664 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20046 
+2020-01-07 14:51:33,665 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:51:33,707 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:51:33,707 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:51:33,728 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:51:33,734 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:51:33,775 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:51:33,776 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:51:33,819 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:51:33,821 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:51:33,859 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:51:33,860 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:51:33,904 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:52:24,114 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:52:24,186 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:52:24,188 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:52:24,221 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:52:24,222 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:52:24,222 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:52:24,245 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20047 
+2020-01-07 14:52:24,246 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:52:24,291 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:52:24,291 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:52:24,311 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后DB冻结余额为20048 
+2020-01-07 14:52:24,312 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:52:24,312 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:52:24,347 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:52:24,349 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:52:24,399 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:52:24,400 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:52:24,438 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:52:24,438 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:52:24,481 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:52:24,482 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:52:24,546 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:52:45,489 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:52:45,551 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:52:45,551 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:52:45,597 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:52:45,597 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:52:45,598 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:52:45,621 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20048 
+2020-01-07 14:52:45,622 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:52:45,670 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:52:45,670 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:52:45,695 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后DB冻结余额为20049 
+2020-01-07 14:52:45,695 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:52:45,696 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:52:45,735 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:52:45,735 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:52:45,778 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:52:45,779 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:52:45,820 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:52:45,820 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:52:45,868 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:52:45,869 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:52:45,940 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:53:12,027 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:53:12,080 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:53:12,081 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:53:12,128 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:53:12,129 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:53:12,129 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:53:12,148 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20049 
+2020-01-07 14:53:12,148 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:53:12,197 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:53:12,197 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:53:12,226 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后DB冻结余额为20050 
+2020-01-07 14:53:12,227 - INFO -my_log.py -API_AUTO - 日志信息：数据库校验通过 
+2020-01-07 14:53:12,227 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:53:12,227 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:53:12,263 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:53:12,264 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:53:12,318 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:53:12,318 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:53:12,355 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:53:12,355 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:53:12,398 - INFO -my_log.py -API_AUTO - 日志信息：执行用例后查看DB 
+2020-01-07 14:53:12,398 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:53:12,460 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:54:12,462 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:54:12,520 - INFO -my_log.py -API_AUTO - 日志信息：用例执行完成 
+2020-01-07 14:54:12,520 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:54:12,579 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:54:12,580 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:54:12,580 - INFO -my_log.py -API_AUTO - 日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:54:12,615 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功前DB冻结余额为20050 
+2020-01-07 14:54:12,616 - INFO -my_log.py -API_AUTO - 日志信息：---开始调用接口---- 
+2020-01-07 14:54:12,659 - INFO -my_log.py -API_AUTO - 日志信息：----接口调用完成--- 
+2020-01-07 14:54:12,659 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:54:12,677 - INFO -my_log.py -API_AUTO - 日志信息：执行用例提现成功后DB冻结余额为20051 
+2020-01-07 14:54:12,677 - INFO -my_log.py -API_AUTO - 日志信息：数据库校验通过 
+2020-01-07 14:54:12,677 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:54:12,724 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:54:12,725 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:54:12,799 - INFO -my_log.py -API_AUTO - 日志信息：用例执行完成 
+2020-01-07 14:54:12,800 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:54:12,849 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:54:12,850 - INFO -my_log.py -API_AUTO - 日志信息：-----开始执行测试用例----- 
+2020-01-07 14:54:12,887 - INFO -my_log.py -API_AUTO - 日志信息：用例执行完成 
+2020-01-07 14:54:12,887 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:54:12,949 - INFO -my_log.py -API_AUTO - 日志信息：测试用例执行完成 
+2020-01-07 14:57:31,032 - INFO -my_log.py -API_AUTO -  日志信息：-----开始执行测试用例----- 
+2020-01-07 14:57:31,092 - INFO -my_log.py -API_AUTO -  日志信息：用例执行完成 
+2020-01-07 14:57:31,093 - INFO -my_log.py -API_AUTO -  日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:57:31,144 - INFO -my_log.py -API_AUTO -  日志信息：测试用例执行完成 
+2020-01-07 14:57:31,145 - INFO -my_log.py -API_AUTO -  日志信息：-----开始执行测试用例----- 
+2020-01-07 14:57:31,146 - INFO -my_log.py -API_AUTO -  日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:57:31,166 - INFO -my_log.py -API_AUTO -  日志信息：执行用例提现成功前DB冻结余额为20052 
+2020-01-07 14:57:31,166 - INFO -my_log.py -API_AUTO -  日志信息：---开始调用接口---- 
+2020-01-07 14:57:31,217 - INFO -my_log.py -API_AUTO -  日志信息：----接口调用完成--- 
+2020-01-07 14:57:31,218 - INFO -my_log.py -API_AUTO -  日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:57:31,239 - INFO -my_log.py -API_AUTO -  日志信息：执行用例提现成功后DB冻结余额为20053 
+2020-01-07 14:57:31,239 - INFO -my_log.py -API_AUTO -  日志信息：数据库校验通过 
+2020-01-07 14:57:31,240 - INFO -my_log.py -API_AUTO -  日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:57:31,276 - INFO -my_log.py -API_AUTO -  日志信息：测试用例执行完成 
+2020-01-07 14:57:31,277 - INFO -my_log.py -API_AUTO -  日志信息：-----开始执行测试用例----- 
+2020-01-07 14:57:31,327 - INFO -my_log.py -API_AUTO -  日志信息：用例执行完成 
+2020-01-07 14:57:31,328 - INFO -my_log.py -API_AUTO -  日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:57:31,365 - INFO -my_log.py -API_AUTO -  日志信息：测试用例执行完成 
+2020-01-07 14:57:31,366 - INFO -my_log.py -API_AUTO -  日志信息：-----开始执行测试用例----- 
+2020-01-07 14:57:31,403 - INFO -my_log.py -API_AUTO -  日志信息：用例执行完成 
+2020-01-07 14:57:31,404 - INFO -my_log.py -API_AUTO -  日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:57:31,466 - INFO -my_log.py -API_AUTO -  日志信息：测试用例执行完成 
+2020-01-07 14:58:07,917 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 14:58:07,969 - INFO -my_log.py -API_AUTO -26-日志信息：用例执行完成 
+2020-01-07 14:58:07,970 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:58:08,047 - INFO -my_log.py -API_AUTO -26-日志信息：测试用例执行完成 
+2020-01-07 14:58:08,047 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 14:58:08,048 - INFO -my_log.py -API_AUTO -26-日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:58:08,061 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功前DB冻结余额为20053 
+2020-01-07 14:58:08,061 - INFO -my_log.py -API_AUTO -26-日志信息：---开始调用接口---- 
+2020-01-07 14:58:08,100 - INFO -my_log.py -API_AUTO -26-日志信息：----接口调用完成--- 
+2020-01-07 14:58:08,108 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:58:08,136 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后DB冻结余额为20054 
+2020-01-07 14:58:08,137 - INFO -my_log.py -API_AUTO -26-日志信息：数据库校验通过 
+2020-01-07 14:58:08,137 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:58:08,174 - INFO -my_log.py -API_AUTO -26-日志信息：测试用例执行完成 
+2020-01-07 14:58:08,175 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 14:58:08,232 - INFO -my_log.py -API_AUTO -26-日志信息：用例执行完成 
+2020-01-07 14:58:08,233 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:58:08,270 - INFO -my_log.py -API_AUTO -26-日志信息：测试用例执行完成 
+2020-01-07 14:58:08,270 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 14:58:08,309 - INFO -my_log.py -API_AUTO -26-日志信息：用例执行完成 
+2020-01-07 14:58:08,310 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:58:08,371 - INFO -my_log.py -API_AUTO -26-日志信息：测试用例执行完成 
+2020-01-07 14:59:08,608 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 14:59:08,683 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:59:08,729 - INFO -my_log.py -API_AUTO -26-日志信息：测试用例执行完成 
+2020-01-07 14:59:08,730 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 14:59:08,730 - INFO -my_log.py -API_AUTO -26-日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 14:59:08,760 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功前DB冻结余额为20054 
+2020-01-07 14:59:08,761 - INFO -my_log.py -API_AUTO -26-日志信息：---开始调用接口---- 
+2020-01-07 14:59:08,806 - INFO -my_log.py -API_AUTO -26-日志信息：----接口调用完成--- 
+2020-01-07 14:59:08,807 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后查看数据库 
+2020-01-07 14:59:08,826 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后DB冻结余额为20055 
+2020-01-07 14:59:08,826 - INFO -my_log.py -API_AUTO -26-日志信息：数据库校验通过 
+2020-01-07 14:59:08,827 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 14:59:08,874 - INFO -my_log.py -API_AUTO -26-日志信息：测试用例执行完成 
+2020-01-07 14:59:08,875 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 14:59:08,921 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 14:59:08,963 - INFO -my_log.py -API_AUTO -26-日志信息：测试用例执行完成 
+2020-01-07 14:59:08,964 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 14:59:09,003 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 14:59:09,073 - INFO -my_log.py -API_AUTO -26-日志信息：测试用例执行完成 
+2020-01-07 15:04:07,266 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:04:07,349 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:04:07,388 - INFO -my_log.py -API_AUTO -26-日志信息：测试用例执行完成 
+2020-01-07 15:04:07,390 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:04:07,390 - INFO -my_log.py -API_AUTO -26-日志信息：-----此条用例需要校验数据库------ 
+2020-01-07 15:04:07,411 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功前DB冻结余额为20055,提现金额为1 
+2020-01-07 15:04:07,412 - INFO -my_log.py -API_AUTO -26-日志信息：---开始调用接口---- 
+2020-01-07 15:04:07,455 - INFO -my_log.py -API_AUTO -26-日志信息：----接口调用完成--- 
+2020-01-07 15:04:07,456 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后查看数据库 
+2020-01-07 15:04:07,475 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后DB冻结余额为20056 
+2020-01-07 15:04:07,476 - INFO -my_log.py -API_AUTO -26-日志信息：数据库校验通过 
+2020-01-07 15:04:07,476 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:04:07,512 - INFO -my_log.py -API_AUTO -26-日志信息：测试用例执行完成 
+2020-01-07 15:04:07,512 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:04:07,573 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 15:04:07,606 - INFO -my_log.py -API_AUTO -26-日志信息：测试用例执行完成 
+2020-01-07 15:04:07,606 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:04:07,652 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 15:04:07,717 - INFO -my_log.py -API_AUTO -26-日志信息：测试用例执行完成 
+2020-01-07 15:05:19,542 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:05:19,605 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:05:19,658 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:05:19,659 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:05:19,659 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-01-07 15:05:19,684 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功前DB冻结余额为20056,提现金额为1 
+2020-01-07 15:05:19,685 - INFO -my_log.py -API_AUTO -26-日志信息：开始调用接口 
+2020-01-07 15:05:19,726 - INFO -my_log.py -API_AUTO -26-日志信息：接口调用完成 
+2020-01-07 15:05:19,726 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后查看数据库 
+2020-01-07 15:05:19,748 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后DB冻结余额为20057 
+2020-01-07 15:05:19,749 - INFO -my_log.py -API_AUTO -26-日志信息：数据库校验通过 
+2020-01-07 15:05:19,749 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:05:19,786 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:05:19,787 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:05:19,829 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 15:05:19,868 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:05:19,868 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:05:19,911 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 15:05:19,969 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:55:33,434 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:55:33,506 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:55:33,506 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:55:33,511 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:55:33,511 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-01-07 15:55:33,535 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功前DB冻结余额为20057,提现金额为1 
+2020-01-07 15:55:33,536 - INFO -my_log.py -API_AUTO -26-日志信息：开始调用接口 
+2020-01-07 15:55:33,583 - INFO -my_log.py -API_AUTO -26-日志信息：接口调用完成 
+2020-01-07 15:55:33,584 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后查看数据库 
+2020-01-07 15:55:33,603 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后DB冻结余额为20058 
+2020-01-07 15:55:33,603 - INFO -my_log.py -API_AUTO -26-日志信息：数据库校验通过 
+2020-01-07 15:55:33,604 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:55:33,604 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:55:33,605 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:55:33,665 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 15:55:33,666 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:55:33,667 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:55:33,725 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 15:55:33,726 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:56:00,937 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:56:00,995 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:56:00,996 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:56:01,002 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:56:01,003 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-01-07 15:56:01,044 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功前DB冻结余额为20058,提现金额为1 
+2020-01-07 15:56:01,044 - INFO -my_log.py -API_AUTO -26-日志信息：开始调用接口 
+2020-01-07 15:56:01,099 - INFO -my_log.py -API_AUTO -26-日志信息：接口调用完成 
+2020-01-07 15:56:01,100 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后查看数据库 
+2020-01-07 15:56:01,141 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后DB冻结余额为20059 
+2020-01-07 15:56:01,142 - INFO -my_log.py -API_AUTO -26-日志信息：数据库校验通过 
+2020-01-07 15:56:01,142 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:56:01,143 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:56:01,144 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:56:01,189 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 15:56:01,190 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:56:01,191 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:56:01,244 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 15:56:01,245 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:57:31,128 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:57:31,187 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:57:31,189 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:57:31,204 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:57:31,204 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-01-07 15:57:31,228 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功前DB冻结余额为20059,提现金额为1 
+2020-01-07 15:57:31,229 - INFO -my_log.py -API_AUTO -26-日志信息：开始调用接口 
+2020-01-07 15:57:31,272 - INFO -my_log.py -API_AUTO -26-日志信息：接口调用完成 
+2020-01-07 15:57:31,273 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后查看数据库 
+2020-01-07 15:57:31,295 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后DB冻结余额为20060 
+2020-01-07 15:57:31,296 - INFO -my_log.py -API_AUTO -26-日志信息：数据库校验通过 
+2020-01-07 15:57:31,296 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:57:31,297 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:57:31,298 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:57:31,348 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 15:57:31,349 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:57:31,350 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:57:31,401 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 15:57:31,401 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:57:53,972 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:57:54,031 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:57:54,032 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:57:54,039 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:57:54,041 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-01-07 15:57:54,072 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功前DB冻结余额为20060,提现金额为1 
+2020-01-07 15:57:54,072 - INFO -my_log.py -API_AUTO -26-日志信息：开始调用接口 
+2020-01-07 15:57:54,116 - INFO -my_log.py -API_AUTO -26-日志信息：接口调用完成 
+2020-01-07 15:57:54,117 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后查看数据库 
+2020-01-07 15:57:54,140 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后DB冻结余额为20061 
+2020-01-07 15:57:54,141 - INFO -my_log.py -API_AUTO -26-日志信息：数据库校验通过 
+2020-01-07 15:57:54,142 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:57:54,142 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:57:54,144 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:57:54,199 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 15:57:54,200 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:57:54,204 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:57:54,247 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 15:57:54,247 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:58:28,287 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:58:28,339 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:58:28,419 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:58:28,420 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:58:28,420 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-01-07 15:58:28,436 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功前DB冻结余额为20061,提现金额为1 
+2020-01-07 15:58:28,436 - INFO -my_log.py -API_AUTO -26-日志信息：开始调用接口 
+2020-01-07 15:58:28,478 - INFO -my_log.py -API_AUTO -26-日志信息：接口调用完成 
+2020-01-07 15:58:28,479 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后查看数据库 
+2020-01-07 15:58:28,498 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后DB冻结余额为20062 
+2020-01-07 15:58:28,499 - INFO -my_log.py -API_AUTO -26-日志信息：数据库校验通过 
+2020-01-07 15:58:28,499 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:58:28,537 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:58:28,537 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:58:28,583 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 15:58:28,626 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:58:28,626 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:58:28,673 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 15:58:28,739 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:58:57,543 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:58:57,595 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:58:57,627 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:58:57,628 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:58:57,628 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-01-07 15:58:57,651 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功前DB冻结余额为20062,提现金额为1 
+2020-01-07 15:58:57,651 - INFO -my_log.py -API_AUTO -26-日志信息：开始调用接口 
+2020-01-07 15:58:57,696 - INFO -my_log.py -API_AUTO -26-日志信息：接口调用完成 
+2020-01-07 15:58:57,697 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后查看数据库 
+2020-01-07 15:58:57,723 - INFO -my_log.py -API_AUTO -26-日志信息：执行用例提现成功后DB冻结余额为20063 
+2020-01-07 15:58:57,724 - INFO -my_log.py -API_AUTO -26-日志信息：数据库校验通过 
+2020-01-07 15:58:57,724 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-07 15:58:57,755 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:58:57,755 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:58:57,800 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 100001, 'success': False, 'msg': 'insufficient amount'} 
+2020-01-07 15:58:57,840 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-07 15:58:57,841 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-07 15:58:57,884 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 500, 'success': False, 'msg': '金额错误'} 
+2020-01-07 15:58:57,919 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-13 11:22:01,218 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-13 11:22:01,527 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-13 11:22:01,763 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-13 11:22:01,989 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 401, 'success': False, 'msg': '账号或密码错误'} 
+2020-01-13 11:22:02,253 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-13 11:22:02,671 - INFO -my_log.py -API_AUTO - 日志信息：获取到的结果是：{'code': 200, 'success': True} 
+2020-01-13 19:17:26,963 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-13 19:17:26,973 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-01-13 19:17:27,002 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-13 19:17:27,017 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-13 19:17:27,018 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-01-13 19:17:27,042 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-13 19:17:27,047 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-13 19:17:27,108 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了 :: 100001 != 401 
+2020-01-13 19:17:27,109 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-01-13 19:17:27,149 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-13 19:17:27,150 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-13 19:17:27,164 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了 :: 500 != 401 
+2020-01-13 19:17:27,165 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-01-13 19:17:27,196 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-13 19:18:13,120 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-13 19:18:13,129 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-01-13 19:18:13,154 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-13 19:18:13,165 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-13 19:18:13,166 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-01-13 19:18:13,184 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-13 19:18:13,186 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-13 19:18:13,907 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了 :: 100001 != 401 
+2020-01-13 19:18:13,910 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-01-13 19:18:13,959 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-13 19:18:13,960 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-01-13 19:18:13,980 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了 :: 500 != 401 
+2020-01-13 19:18:13,982 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-01-13 19:18:14,025 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-01-21 15:21:13,993 - ERROR -my_log.py -API_AUTO -34-日志信息：ddd 
+NoneType: None
+2020-01-21 15:33:56,471 - ERROR -my_log.py -API_AUTO -30-日志信息：111111 
+NoneType: None
+2020-03-05 10:45:54,592 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 10:45:54,593 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 10:45:54,672 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 10:45:54,677 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 10:45:54,678 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 10:45:54,732 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 10:45:54,733 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 10:45:54,773 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了100001 != 401 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 100001 != 401
+2020-03-05 10:45:54,776 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 10:45:54,806 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 10:45:54,807 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 10:45:54,827 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了500 != 401 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500 != 401
+2020-03-05 10:45:54,827 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 10:45:54,855 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 10:58:29,657 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 10:58:29,658 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 10:58:29,708 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 10:58:29,718 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 10:58:29,719 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 10:58:29,773 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 10:58:29,774 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 10:58:29,832 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了100001 != 401 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 100001 != 401
+2020-03-05 10:58:29,836 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 10:58:29,865 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 10:58:29,866 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 10:58:29,901 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了500 != 401 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500 != 401
+2020-03-05 10:58:29,901 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 10:58:29,937 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 10:58:54,231 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 10:58:54,232 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 10:58:54,356 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 10:58:54,365 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 10:58:54,365 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 10:58:54,452 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 10:58:54,454 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 10:58:54,516 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了100001 != 401 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 100001 != 401
+2020-03-05 10:58:54,520 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 10:58:54,548 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 10:58:54,549 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 10:58:54,589 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了500 != 401 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500 != 401
+2020-03-05 10:58:54,590 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 10:58:54,620 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:04:23,468 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:04:23,469 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 11:04:23,614 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:04:23,860 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:04:23,861 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 11:04:23,959 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:04:24,095 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:04:24,175 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了 :: 100001 != 401 
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 100001 != 401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 100001 != 401
+2020-03-05 11:04:24,178 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 11:04:24,212 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:04:24,271 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:04:24,296 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了 :: 500 != 401 
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500 != 401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 500 != 401
+2020-03-05 11:04:24,297 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 11:04:24,337 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:12:01,442 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:12:01,445 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 11:12:01,477 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:12:01,684 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:12:01,685 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 11:12:01,778 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:12:01,867 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:12:01,955 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了 :: 100001 != 401 
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 100001 != 401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 100001 != 401
+2020-03-05 11:12:01,958 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 11:12:01,994 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:12:02,049 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:12:02,095 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了 :: 500 != 401 
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500 != 401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 500 != 401
+2020-03-05 11:12:02,096 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 11:12:02,128 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:12:19,807 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:12:19,809 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 11:12:19,926 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:12:20,146 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:12:20,146 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 11:12:20,239 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:12:20,341 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:12:20,405 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了 :: 100001 != 401 
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 100001 != 401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 100001 != 401
+2020-03-05 11:12:20,409 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 11:12:20,456 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:12:20,511 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:12:20,537 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了 :: 500 != 401 
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500 != 401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 500 != 401
+2020-03-05 11:12:20,538 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 11:12:20,569 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:12:49,251 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:12:49,253 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 11:12:49,351 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:12:49,531 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:12:49,532 - INFO -my_log.py -API_AUTO -26-日志信息：.....此条用例需要校验数据库..... 
+2020-03-05 11:12:49,556 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:12:49,659 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:12:49,701 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了 :: 100001 != 401 
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 100001 != 401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 100001 != 401
+2020-03-05 11:12:49,703 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 11:12:49,743 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-03-05 11:12:49,801 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-03-05 11:12:49,821 - ERROR -my_log.py -API_AUTO -30-日志信息：执行用例出错误了 :: 500 != 401 
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 500 != 401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
+    self.assertEqual(item['expected'],res.json()['code'])
+  File "/Applications/PyCharm.app/Contents/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 500 != 401
+2020-03-05 11:12:49,822 - INFO -my_log.py -API_AUTO -26-日志信息：获取到的结果是：{'code': 401, 'name': 'TOKEN_FAILED', 'msg': 'token校验不通过'} 
+2020-03-05 11:12:49,853 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
