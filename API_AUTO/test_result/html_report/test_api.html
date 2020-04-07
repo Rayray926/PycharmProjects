@@ -200,9 +200,9 @@ function showOutput(id, name) {
 --></script>
 <div class='heading'>
 <h1>test_api单元测试</h1>
-<p class='attribute'><strong>Start Time:</strong> 2020-03-05 10:58:54</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.389120</p>
-<p class='attribute'><strong>Status:</strong> Failure 2 Error 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2020-03-17 18:59:03</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.134888</p>
+<p class='attribute'><strong>Status:</strong> Error 5</p>
 
 <p class='description'>这个是test_api单元测试报告</p>
 </div>
@@ -243,11 +243,11 @@ function showOutput(id, name) {
 
 <tr class='errorClass'>
     <td>API_AUTO.tools.test_http_request.HttpTest</td>
-    <td>4</td>
+    <td>5</td>
     <td>0</td>
-    <td>2</td>
-    <td>2</td>
-    <td><a href="javascript:showClassDetail('c1',4)">Detail</a></td>
+    <td>0</td>
+    <td>5</td>
+    <td><a href="javascript:showClassDetail('c1',5)">Detail</a></td>
 </tr>
 
 <tr id='ft1.1' class='none'>
@@ -331,7 +331,7 @@ ft1.2: Traceback (most recent call last):
     err.raise_mysql_exception(self._data)
   File "/usr/local/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
     raise errorclass(errno, errval)
-pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{'code': 200, 'success': True}' at line 1")
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{'code': 401, 'success': False, 'msg': '账号或密码错误'}' at line 1")
 
 
         </pre>
@@ -341,11 +341,11 @@ pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; chec
 </tr>
 
 <tr id='ft1.3' class='none'>
-    <td class='failCase'><div class='testcase'>test_api_3</div></td>
+    <td class='errorCase'><div class='testcase'>test_api_3</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
     <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
-        fail</a>
+        error</a>
     <div id='div_ft1.3' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
         <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
@@ -356,11 +356,27 @@ pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; chec
 ft1.3: Traceback (most recent call last):
   File "/usr/local/lib/python3.7/site-packages/ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 58, in test_api
-    raise e
-  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
-    self.assertEqual(item['expected'],res.json()['code'])
-AssertionError: 100001 != 401
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 30, in test_api
+    before_freeze_amount=DoMysql().do_mysql(item['check_database'])[0][5]
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/do_mysql.py", line 25, in do_mysql
+    cur.execute(query_sql)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{'code': 401, 'success': False, 'msg': '账号或密码错误'}' at line 1")
 
 
         </pre>
@@ -370,11 +386,11 @@ AssertionError: 100001 != 401
 </tr>
 
 <tr id='ft1.4' class='none'>
-    <td class='failCase'><div class='testcase'>test_api_4</div></td>
+    <td class='errorCase'><div class='testcase'>test_api_4</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
     <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.4')" >
-        fail</a>
+        error</a>
     <div id='div_ft1.4' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
         <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.4').style.display = 'none' " >
@@ -385,11 +401,72 @@ AssertionError: 100001 != 401
 ft1.4: Traceback (most recent call last):
   File "/usr/local/lib/python3.7/site-packages/ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 58, in test_api
-    raise e
-  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 53, in test_api
-    self.assertEqual(item['expected'],res.json()['code'])
-AssertionError: 500 != 401
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 30, in test_api
+    before_freeze_amount=DoMysql().do_mysql(item['check_database'])[0][5]
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/do_mysql.py", line 25, in do_mysql
+    cur.execute(query_sql)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{'code': 401, 'success': False, 'msg': '账号或密码错误'}' at line 1")
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+    </td>
+</tr>
+
+<tr id='ft1.5' class='none'>
+    <td class='errorCase'><div class='testcase'>test_api_5</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.5')" >
+        error</a>
+    <div id='div_ft1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.5: Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/test_http_request.py", line 30, in test_api
+    before_freeze_amount=DoMysql().do_mysql(item['check_database'])[0][5]
+  File "/Users/ibell/PycharmProjects/API_AUTO/tools/do_mysql.py", line 25, in do_mysql
+    cur.execute(query_sql)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{'code': 401, 'success': False, 'msg': '账号或密码错误'}' at line 1")
 
 
         </pre>
@@ -400,10 +477,10 @@ AssertionError: 500 != 401
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>4</td>
+    <td>5</td>
     <td class="text text-success">0</td>
-    <td class="text text-danger">2</td>
-    <td class="text text-warning">2</td>
+    <td class="text text-danger">0</td>
+    <td class="text text-warning">5</td>
     <td>&nbsp;</td>
 </tr>
 </table>
@@ -414,7 +491,7 @@ AssertionError: 500 != 401
 var data = [
 	{   
 	    name: 'error',
-		value: 2,
+		value: 5,
 		color: "#D35400",
 		label: "Error",
 		labelColor: 'white',
@@ -422,7 +499,7 @@ var data = [
 	},
 	{
 	    name: 'fail',
-		value : 2,
+		value : 0,
 		color : "#D4AC0D",
 		label: "Fail",
 		labelColor: 'white',

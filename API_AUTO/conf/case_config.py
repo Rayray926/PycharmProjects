@@ -1,5 +1,4 @@
 [MODE]
-mode={"login":[],
-      "withdraw":"all",
+mode={"login":"all",
       }
 

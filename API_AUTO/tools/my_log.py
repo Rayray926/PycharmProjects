@@ -4,7 +4,7 @@
 # File: my_log.py
 
 import logging
-from API_AUTO.tools.project_path import *
+from API_AUTO.tools.project_path import log_path
 
 class Mylogger:
 
@@ -55,3 +55,4 @@ class Mylogger:
 
 if __name__ == '__main__':
     Mylogger().error("111111")
+

@@ -45,13 +45,12 @@ class DoExcel:
                     row_data['method'] = sheet.cell(case_id+1, 6).value
                     row_data['expected'] = sheet.cell(case_id+1, 7).value
                     row_data['check_database'] = sheet.cell(case_id, 8).value
-
                     row_data['sheet_name'] = key
                     test_data.append(row_data)
-                    # self.updata_tel(tel + 2, file_name,'phone_data')
 
         for item in test_data:
             tel = wb['phone_data'].cell(2, 1).value
+            # print(tel)
             if str(item).find("${tel_1}") != -1:
                 item['data']=eval(str(item['data']).replace("${tel_1}",str(tel)))
                 tel=tel+1
@@ -82,4 +81,5 @@ class DoExcel:
 
 if __name__=="__main__":
     test_data=DoExcel().get_data(project_path.test_case_path)
-    print(type(eval(test_data[1]['data'])['amount']))
+    print(test_data)
+    # print(type(eval(test_data[1]['data'])['amount']))

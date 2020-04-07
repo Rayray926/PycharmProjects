@@ -4,8 +4,7 @@
 # File: do_mysql.py
 
 import pymysql
-from  API_AUTO.tools.read_config import ReadConfig
-from API_AUTO.tools import project_path
+
 
 class DoMysql:
 
