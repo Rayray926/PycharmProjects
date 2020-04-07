@@ -1,0 +1,237 @@
+2020-01-22 15:24:20,857 - INFO -logger.py -API_AUTO -26-日志信息：等待元素('xpath', "//input[@id='phone']")可见 
+2020-01-22 15:24:20,884 - INFO -logger.py -API_AUTO -26-日志信息：元素等待结束，等待时间为:0 
+2020-01-22 15:24:20,884 - INFO -logger.py -API_AUTO -26-日志信息：点击元素('xpath', "//input[@id='phone']") 
+2020-01-22 15:24:20,885 - INFO -logger.py -API_AUTO -26-日志信息：查找元素('xpath', "//input[@id='phone']") 
+2020-01-22 15:24:21,093 - INFO -logger.py -API_AUTO -26-日志信息：点击元素('xpath', "//input[@id='pass']") 
+2020-01-22 15:24:21,093 - INFO -logger.py -API_AUTO -26-日志信息：查找元素('xpath', "//input[@id='pass']") 
+2020-01-22 15:24:21,202 - INFO -logger.py -API_AUTO -26-日志信息：点击元素('xpath', "//div[@class='login__form f-14']/div[4]") 
+2020-01-22 15:24:21,202 - INFO -logger.py -API_AUTO -26-日志信息：查找元素('xpath', "//div[@class='login__form f-14']/div[4]") 
+2020-01-22 15:24:21,254 - INFO -logger.py -API_AUTO -26-日志信息：****礼品商后台_首页跳转_跳转至购物订单页**** 
+2020-01-22 15:24:21,254 - INFO -logger.py -API_AUTO -26-日志信息：等待元素('xpath', "//*[@class='mr1 relative']")可见 
+2020-01-22 15:24:51,378 - ERROR -logger.py -API_AUTO -30-日志信息：等待元素可见失败～～～ 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/test/excise/web_test/common/base_page.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-01-22 15:24:51,865 - INFO -logger.py -API_AUTO -26-日志信息：截取网页成功，文件路径为:/Users/ibell/PycharmProjects/test/excise/web_test/Outputs/screenshot/首页超链接跳转_2020-01-22 15:24:51.png 
+2020-01-22 15:24:52,057 - INFO -logger.py -API_AUTO -26-日志信息：****礼品商后台_首页跳转_跳转至购物订单页**** 
+2020-01-22 15:24:52,057 - INFO -logger.py -API_AUTO -26-日志信息：等待元素('xpath', "//*[@class='mr1 relative']")可见 
+2020-01-22 15:25:22,117 - ERROR -logger.py -API_AUTO -30-日志信息：等待元素可见失败～～～ 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/test/excise/web_test/common/base_page.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-01-22 15:25:22,531 - INFO -logger.py -API_AUTO -26-日志信息：截取网页成功，文件路径为:/Users/ibell/PycharmProjects/test/excise/web_test/Outputs/screenshot/首页超链接跳转_2020-01-22 15:25:22.png 
+2020-01-22 15:25:22,549 - INFO -logger.py -API_AUTO -26-日志信息：****礼品商后台_首页跳转_跳转至购物订单页**** 
+2020-01-22 15:25:22,549 - INFO -logger.py -API_AUTO -26-日志信息：等待元素('xpath', "//*[@class='mr1 relative']")可见 
+2020-01-22 15:25:27,311 - ERROR -logger.py -API_AUTO -30-日志信息：等待元素可见失败～～～ 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/test/excise/web_test/common/base_page.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 401, in _find_element
+    raise e
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 397, in _find_element
+    return driver.find_element(*by)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=79.0.3945.117)
+
+2020-01-22 15:25:27,508 - INFO -logger.py -API_AUTO -26-日志信息：****礼品商后台_首页跳转_跳转至购物订单页**** 
+2020-01-22 15:25:27,508 - INFO -logger.py -API_AUTO -26-日志信息：等待元素('xpath', "//*[@class='mr1 relative']")可见 
+2020-01-22 15:25:27,515 - ERROR -logger.py -API_AUTO -30-日志信息：等待元素可见失败～～～ 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/test/excise/web_test/common/base_page.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 401, in _find_element
+    raise e
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 397, in _find_element
+    return driver.find_element(*by)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=79.0.3945.117)
+
+2020-01-22 15:25:27,701 - INFO -logger.py -API_AUTO -26-日志信息：****礼品商后台_首页跳转_跳转至购物订单页**** 
+2020-01-22 15:25:27,701 - INFO -logger.py -API_AUTO -26-日志信息：等待元素('xpath', "//*[@class='mr1 relative']")可见 
+2020-01-22 15:25:27,710 - ERROR -logger.py -API_AUTO -30-日志信息：等待元素可见失败～～～ 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/test/excise/web_test/common/base_page.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 401, in _find_element
+    raise e
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 397, in _find_element
+    return driver.find_element(*by)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=79.0.3945.117)
+
+2020-01-22 15:25:47,915 - INFO -logger.py -API_AUTO -26-日志信息：等待元素('xpath', "//input[@id='phone']")可见 
+2020-01-22 15:25:47,947 - INFO -logger.py -API_AUTO -26-日志信息：元素等待结束，等待时间为:0 
+2020-01-22 15:25:47,947 - INFO -logger.py -API_AUTO -26-日志信息：点击元素('xpath', "//input[@id='phone']") 
+2020-01-22 15:25:47,949 - INFO -logger.py -API_AUTO -26-日志信息：查找元素('xpath', "//input[@id='phone']") 
+2020-01-22 15:25:48,149 - INFO -logger.py -API_AUTO -26-日志信息：点击元素('xpath', "//input[@id='pass']") 
+2020-01-22 15:25:48,149 - INFO -logger.py -API_AUTO -26-日志信息：查找元素('xpath', "//input[@id='pass']") 
+2020-01-22 15:25:48,255 - INFO -logger.py -API_AUTO -26-日志信息：点击元素('xpath', "//div[@class='login__form f-14']/div[4]") 
+2020-01-22 15:25:48,256 - INFO -logger.py -API_AUTO -26-日志信息：查找元素('xpath', "//div[@class='login__form f-14']/div[4]") 
+2020-01-22 15:25:48,326 - INFO -logger.py -API_AUTO -26-日志信息：****礼品商后台_首页跳转_跳转至购物订单页**** 
+2020-01-22 15:25:48,327 - INFO -logger.py -API_AUTO -26-日志信息：等待元素('xpath', "//*[@class='mr1 relative']")可见 
+2020-01-22 15:25:53,010 - ERROR -logger.py -API_AUTO -30-日志信息：等待元素可见失败～～～ 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/test/excise/web_test/common/base_page.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 401, in _find_element
+    raise e
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 397, in _find_element
+    return driver.find_element(*by)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=79.0.3945.117)
+
+2020-01-22 15:25:53,253 - INFO -logger.py -API_AUTO -26-日志信息：****礼品商后台_首页跳转_跳转至购物订单页**** 
+2020-01-22 15:25:53,253 - INFO -logger.py -API_AUTO -26-日志信息：等待元素('xpath', "//*[@class='mr1 relative']")可见 
+2020-01-22 15:25:53,263 - ERROR -logger.py -API_AUTO -30-日志信息：等待元素可见失败～～～ 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/test/excise/web_test/common/base_page.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 401, in _find_element
+    raise e
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 397, in _find_element
+    return driver.find_element(*by)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=79.0.3945.117)
+
+2020-01-22 15:25:53,438 - INFO -logger.py -API_AUTO -26-日志信息：****礼品商后台_首页跳转_跳转至购物订单页**** 
+2020-01-22 15:25:53,438 - INFO -logger.py -API_AUTO -26-日志信息：等待元素('xpath', "//*[@class='mr1 relative']")可见 
+2020-01-22 15:25:53,447 - ERROR -logger.py -API_AUTO -30-日志信息：等待元素可见失败～～～ 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/test/excise/web_test/common/base_page.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 401, in _find_element
+    raise e
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 397, in _find_element
+    return driver.find_element(*by)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=79.0.3945.117)
+
+2020-01-22 15:25:53,637 - INFO -logger.py -API_AUTO -26-日志信息：****礼品商后台_首页跳转_跳转至购物订单页**** 
+2020-01-22 15:25:53,637 - INFO -logger.py -API_AUTO -26-日志信息：等待元素('xpath', "//*[@class='mr1 relative']")可见 
+2020-01-22 15:25:53,648 - ERROR -logger.py -API_AUTO -30-日志信息：等待元素可见失败～～～ 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/test/excise/web_test/common/base_page.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 401, in _find_element
+    raise e
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 397, in _find_element
+    return driver.find_element(*by)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=79.0.3945.117)
+
+2020-01-22 15:25:53,852 - INFO -logger.py -API_AUTO -26-日志信息：****礼品商后台_首页跳转_跳转至购物订单页**** 
+2020-01-22 15:25:53,853 - INFO -logger.py -API_AUTO -26-日志信息：等待元素('xpath', "//*[@class='mr1 relative']")可见 
+2020-01-22 15:25:53,860 - ERROR -logger.py -API_AUTO -30-日志信息：等待元素可见失败～～～ 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/test/excise/web_test/common/base_page.py", line 28, in wait_eleVisible
+    WebDriverWait(self.driver,timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 401, in _find_element
+    raise e
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/support/expected_conditions.py", line 397, in _find_element
+    return driver.find_element(*by)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=79.0.3945.117)
+
+2020-01-29 10:27:10,191 - ERROR -logger.py -API_AUTO -30-日志信息：元素输入失败!!!!! 
+Traceback (most recent call last):
+  File "/Users/ibell/PycharmProjects/test/excise/web_test/common/base_page.py", line 79, in input_text
+    ele.send_keys(text)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webelement.py", line 479, in send_keys
+    'value': keys_to_typing(value)})
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "/Users/ibell/Library/Python/3.7/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=79.0.3945.117)
+
