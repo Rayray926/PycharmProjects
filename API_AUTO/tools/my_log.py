@@ -54,5 +54,6 @@ class Mylogger:
 
 
 if __name__ == '__main__':
-    Mylogger().error("111111")
+    Mylogger().error("1222")
+    Mylogger().error("122223332")
 

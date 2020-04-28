@@ -50,12 +50,13 @@ class HttpTest(unittest.TestCase):
         if res.cookies:
             setattr(GetData,'Cookie',res.cookies)
         try:
-            self.assertEqual(item['expected'],res.json()['code'])
+            self.assertEqual(item['expected'],res.json()['code1'])
             TestResult='PASS'
         except Exception as e:
             TestResult = 'Failed'
-            my_log.error("执行用例出错误了{}".format(e))
-            raise e
+            print(Exception.with_traceback())
+            # my_log.error("执行用例出错误了{}".format(e))
+            # raise e
         finally:
             my_log.info("获取到的结果是：{}".format(res.json()))
             DoExcel().wirte_back(test_case_path,item['sheet_name'],item['code']+1,str(res.json()),TestResult,check_result)
