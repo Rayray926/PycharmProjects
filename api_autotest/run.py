@@ -3,15 +3,30 @@
 # Create_time: 2020-04-02 11:21 
 # File: run.py.py
 
-import unittest
-import HTMLTestRunner
-from common.project_path import test_report_path
-from common.test_http_request import HttpTest
+import pytest
+from common.do_shell import Shell
+from common.my_log import Mylog
 
-suite=unittest.TestSuite()
-loader=unittest.TestLoader()
-suite.addTest(loader.loadTestsFromTestCase(HttpTest))
+from conf import config
+import os
 
-with open(test_report_path,'wb') as file:
-    runner=HTMLTestRunner.HTMLTestRunner(stream=file,verbosity=1,title='api_autotest 测试报告',description='这是api_autotest 测试报告')
-    runner.run(suite)
+if __name__ == '__main__':
+
+    report_path = config.get_report_path() + os.sep + "result"
+    report_html_path = config.get_report_path() + os.sep + "html"
+    report_xml_path = config.get_report_path() + os.sep + "xml"
+    shell=Shell()
+    # 定义测试集
+    args = ['-s', '-q', '--alluredir', report_xml_path]
+
+    pytest.main(args)
+    cmd = 'allure generate %s -o %s' % (report_xml_path , report_html_path)
+
+    try:
+        shell.invoke(cmd)
+    except Exception:
+        Mylog().error('执行用例失败，请检查环境配置')
+        raise
+
+
+

@@ -1,0 +1,13 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_case.test_gift_dealer_withdraw.TestGiftDealerWithdraw#test_withdraw","302","
+        登录状态下，提现成功
+        :return:
+        "
+"passed","test_case.test_gift_dealer_withdraw.TestGiftDealerWithdraw#test_withdraw","474","
+        登录状态下，提现成功
+        :return:
+        "
+"passed","test_case.test_gift_dealer_withdraw.TestGiftDealerWithdraw#test_withdraw","362","
+        登录状态下，提现成功
+        :return:
+        "

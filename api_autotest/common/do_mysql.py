@@ -4,7 +4,8 @@
 # File: do_mysql.py
 
 import  pymysql
-from my_log import MyLogging
+from common.my_log import Mylog
+
 
 class DoMysql:
     def do_mysql(self,query,fetch='one'):
@@ -17,7 +18,7 @@ class DoMysql:
             charset='utf8')
 
         cur=conn.cursor()
-        MyLogging().info("操作的sql是：{}".format(query))
+        Mylog().info("操作的sql是：{}".format(query))
         cur.execute(query)
         if fetch=='all':
             data=cur.fetchall()

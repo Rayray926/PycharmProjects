@@ -2,3 +2,32 @@
 NoneType: None
 2020-04-08 19:30:38,620 - ERROR -my_log.py -API_AUTO -30-日志信息：122223332 
 NoneType: None
+2020-05-02 10:43:55,996 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-05-02 10:44:33,746 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-05-02 10:44:33,755 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-05-02 10:45:49,573 - INFO -my_log.py -API_AUTO -26-日志信息：请求报错了HTTPConnectionPool(host='youli.uban360.net', port=80): Max retries exceeded with url: /gift-manager/account/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10f272250>: Failed to establish a new connection: [Errno 60] Operation timed out')) 
+2020-05-02 10:45:49,576 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-05-02 10:45:49,579 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-05-02 10:47:05,100 - INFO -my_log.py -API_AUTO -26-日志信息：请求报错了HTTPConnectionPool(host='youli.uban360.net', port=80): Max retries exceeded with url: /gift-manager/account/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10fc17c10>: Failed to establish a new connection: [Errno 60] Operation timed out')) 
+2020-05-02 10:47:05,101 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-05-02 10:47:05,101 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-05-02 10:48:20,236 - INFO -my_log.py -API_AUTO -26-日志信息：请求报错了HTTPConnectionPool(host='youli.uban360.net', port=80): Max retries exceeded with url: /gift-manager/account/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10fc21a10>: Failed to establish a new connection: [Errno 60] Operation timed out')) 
+2020-05-02 10:48:20,239 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-05-02 10:48:20,240 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-05-02 10:49:35,351 - INFO -my_log.py -API_AUTO -26-日志信息：请求报错了HTTPConnectionPool(host='youli.uban360.net', port=80): Max retries exceeded with url: /gift-manager/account/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10fc24850>: Failed to establish a new connection: [Errno 60] Operation timed out')) 
+2020-05-02 10:49:35,355 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-05-02 10:49:38,179 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-05-02 10:50:53,282 - INFO -my_log.py -API_AUTO -26-日志信息：请求报错了HTTPConnectionPool(host='youli.uban360.net', port=80): Max retries exceeded with url: /gift-manager/account/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x115b20f50>: Failed to establish a new connection: [Errno 60] Operation timed out')) 
+2020-05-02 10:50:53,285 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-05-02 10:50:53,307 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-05-02 10:52:08,514 - INFO -my_log.py -API_AUTO -26-日志信息：请求报错了HTTPConnectionPool(host='youli.uban360.net', port=80): Max retries exceeded with url: /gift-manager/account/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x116465f90>: Failed to establish a new connection: [Errno 60] Operation timed out')) 
+2020-05-02 10:52:08,515 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-05-02 10:52:08,525 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-05-02 10:53:23,882 - INFO -my_log.py -API_AUTO -26-日志信息：请求报错了HTTPConnectionPool(host='youli.uban360.net', port=80): Max retries exceeded with url: /gift-manager/account/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11646ed90>: Failed to establish a new connection: [Errno 60] Operation timed out')) 
+2020-05-02 10:53:23,885 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-05-02 10:53:23,888 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-05-02 10:54:39,330 - INFO -my_log.py -API_AUTO -26-日志信息：请求报错了HTTPConnectionPool(host='youli.uban360.net', port=80): Max retries exceeded with url: /gift-manager/account/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x116472b90>: Failed to establish a new connection: [Errno 60] Operation timed out')) 
+2020-05-02 10:54:39,332 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 
+2020-05-02 10:54:39,334 - INFO -my_log.py -API_AUTO -26-日志信息：-----开始执行测试用例----- 
+2020-05-02 10:55:54,517 - INFO -my_log.py -API_AUTO -26-日志信息：请求报错了HTTPConnectionPool(host='youli.uban360.net', port=80): Max retries exceeded with url: /gift-manager/account/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11647b9d0>: Failed to establish a new connection: [Errno 60] Operation timed out')) 
+2020-05-02 10:55:54,521 - INFO -my_log.py -API_AUTO -26-日志信息：----测试用例执行完成----- 

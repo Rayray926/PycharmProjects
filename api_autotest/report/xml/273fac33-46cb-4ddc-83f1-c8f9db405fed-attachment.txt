@@ -1,0 +1,12 @@
+INFO     test_api:my_log.py:48 需要校验DB------{'case_id': 6, 'module': 'withdraw', 'title': '提现成功', 'isrun': 'y', 'url': '/gift-manager/pay-account/withdraw', 'pre_conditon': None, 'remark': None, 'headers': None, 'cookies': None, 'method': 'get', 'param_type': 'json', 'data': '{"amount":1}', 'check_database': 'select * from payment_account where gift_dealer_id=21', 'expected': 200}  
+INFO     test_api:my_log.py:48 操作的sql是：select * from payment_account where gift_dealer_id=21
+INFO     test_api:my_log.py:48 掉接口前sql获得的数据是(8, datetime.datetime(2019, 5, 10, 16, 2, 20), datetime.datetime(2020, 5, 11, 19, 23, 17), 21, 100001, 20203, 0, 145528811, ' 1', 21, None, 303, 0)
+INFO     test_api:my_log.py:48 提现前amount 是100001,提现前freeze_amount 是20203,待提现金额为1
+INFO     test_api:my_log.py:48 开始调用接口
+INFO     test_api:my_log.py:48 本次执行的是测试环境用例
+INFO     test_api:my_log.py:48 操作的sql是：select * from payment_account where gift_dealer_id=21
+INFO     test_api:my_log.py:48 掉接口后sql获得的数据是(8, datetime.datetime(2019, 5, 10, 16, 2, 20), datetime.datetime(2020, 5, 11, 19, 23, 17), 21, 100001, 20203, 0, 145528811, ' 1', 21, None, 303, 0)
+INFO     test_api:my_log.py:48 提现后amount 是100001,提现后freeze_amount 是20204,待提现金额为1
+INFO     test_api:my_log.py:48 数据库校验通过
+INFO     test_api:my_log.py:48 获取到的结果是{'code': 200, 'success': True}
+INFO     test_api:my_log.py:48 需要运行的模块是['gift_dealer_manage', 'H5', 'super_admin_manage'],类型是<class 'list'>

@@ -1,0 +1,35 @@
+2020-05-11 18:50:35,365  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 18:50:35,383  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 18:51:10,051  test_api ERROR 请求出错了HTTPSConnectionPool(host='youli.uban360.com', port=443): Max retries exceeded with url: /gift-manager/pay-account/withdraw?amount=1 (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')])")))
+2020-05-11 18:51:10,313  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 18:51:10,337  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 18:55:25,801  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 18:55:25,921  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 18:55:25,946  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 18:57:53,592  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 18:57:53,738  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 18:57:53,787  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 18:58:40,322  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 18:58:40,470  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 18:58:40,513  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 19:00:17,281  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 19:00:17,417  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 19:00:17,467  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 19:01:24,236  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 19:01:24,367  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 19:01:24,414  test_api ERROR 执行用例失败local variable 'res' referenced before assignment
+2020-05-11 19:02:46,627  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 19:02:47,065  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 19:02:47,402  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 19:04:34,050  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 19:04:34,462  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 19:04:34,788  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 19:05:10,923  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 19:05:11,392  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 19:05:11,793  test_api ERROR 执行用例失败'dict' object has no attribute 'json'
+2020-05-11 19:06:34,938  test_api ERROR 执行用例失败'case_id'
+2020-05-11 19:06:35,388  test_api ERROR 执行用例失败'case_id'
+2020-05-11 19:06:35,755  test_api ERROR 执行用例失败'case_id'
+2020-05-11 19:06:51,601  test_api ERROR 执行用例失败'case_id'
+2020-05-11 19:06:52,056  test_api ERROR 执行用例失败'case_id'
+2020-05-11 19:06:52,387  test_api ERROR 执行用例失败'case_id'

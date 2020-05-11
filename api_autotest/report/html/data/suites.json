@@ -1,0 +1,53 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_gift_dealer_withdraw",
+      "children" : [ {
+        "name" : "TestGiftDealerWithdraw",
+        "children" : [ {
+          "name" : "test_withdraw[item0]",
+          "uid" : "c6cbeeb9fa0c53a3",
+          "parentUid" : "b20c9f0eaf74493e0bce00d2f2953b3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589196986950,
+            "stop" : 1589196987424,
+            "duration" : 474
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_id': 6, 'module': 'withdraw', 'title': '提现成功', 'isrun': 'y', 'url': '/gift-manager/pay-account/withdraw', 'pre_conditon': None, 'remark': None, 'headers': None, 'cookies': None, 'method': 'get', 'param_type': 'json', 'data': '{\"amount\":1}', 'check_database': 'select * from payment_account where gift_dealer_id=21', 'expected': 200}" ]
+        }, {
+          "name" : "test_withdraw[item1]",
+          "uid" : "2c69a48a639546dc",
+          "parentUid" : "b20c9f0eaf74493e0bce00d2f2953b3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589196987428,
+            "stop" : 1589196987790,
+            "duration" : 362
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_id': 7, 'module': 'withdraw', 'title': '提现失败_金额大于可用金额', 'isrun': 'y', 'url': '/gift-manager/pay-account/withdraw', 'pre_conditon': None, 'remark': None, 'headers': None, 'cookies': None, 'method': 'get', 'param_type': 'json', 'data': '{\"amount\":10000000000000}', 'check_database': None, 'expected': 100001}" ]
+        }, {
+          "name" : "test_withdraw[item2]",
+          "uid" : "5599ab27d0e2822",
+          "parentUid" : "b20c9f0eaf74493e0bce00d2f2953b3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589196987792,
+            "stop" : 1589196988094,
+            "duration" : 302
+          },
+          "flaky" : false,
+          "parameters" : [ "{'case_id': 8, 'module': 'withdraw', 'title': '提现失败_金额有误,金额为负数', 'isrun': 'y', 'url': '/gift-manager/pay-account/withdraw', 'pre_conditon': None, 'remark': None, 'headers': None, 'cookies': None, 'method': 'get', 'param_type': 'json', 'data': '{\"amount\":-1}', 'check_database': None, 'expected': 500}" ]
+        } ],
+        "uid" : "b20c9f0eaf74493e0bce00d2f2953b3a"
+      } ],
+      "uid" : "679ac973ca086eb5f5f2b3c459b8825e"
+    } ],
+    "uid" : "86abcc46617c603d802c3e378b13740e"
+  } ]
+}

@@ -1,0 +1,36 @@
+
+#新增新模块配置依次往后加，插队则需要修改config.py 返回数据相关代码
+TEST_MODULE:
+  #测试用例模块
+  - gift_dealer_manage
+  - H5
+  - super_admin_manage
+
+TEST_ENVIRONMENT:
+  TEST_DEBUG
+#  TEST_RELEASE
+
+#测试环境测试配置
+DEBUG_ENVIRONMENT:
+  giftDealerManageHost: http://youli.uban360.net
+  giftDealerManageLoginInfo: {mobile: '15634116913', password: 123qazxsw}
+  giftDealerManageSiteId: 81
+
+#  h5Host:
+#  superAdminManageHost:.
+#正式环境
+RELEASE_ENVIRONMENT:
+  giftDealerManageHost: https://youli.uban360.com
+  giftDealerManageLoginInfo: {mobile: '18458872034', password: test1234}
+  giftDealerManageSiteId: 8
+
+#    h5Host:
+#    superAdminManageHost:
+#    giftDealerManageLoginInfo:
+#    H5_login:
+#    super_admin_manage_login:
+
+
+
+
+

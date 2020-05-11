@@ -6,7 +6,7 @@
 import unittest
 import HTMLTestRunner
 
-import excise.web_test.common.dir_config as dirconf
+import web_test.common.dir_config as dirconf
 
 suite=unittest.TestSuite()
 loader=unittest.TestLoader()
