@@ -40,7 +40,7 @@ class DoExcel:
         try:
             for sheet_name in self.module:
                 sheet=self.wb[sheet_name]
-                for i in range(2,sheet.max_row):
+                for i in range(2,sheet.max_row+1):
                     row_data = {}
                     row_data['case_id'] = sheet.cell(i, 1).value
                     row_data['module'] = sheet.cell(i, 2).value
@@ -90,8 +90,9 @@ class DoExcel:
         except Exception as e:
             Mylog().error("replace_placeholder {}".format(e))
             raise e
-
+        print(self.test_data)
         return self.test_data
+
 
 
     def get_module_test_data(self,module_name):

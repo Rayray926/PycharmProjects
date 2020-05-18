@@ -1,0 +1,8 @@
+2020-05-18 09:58:32,870  test_api ERROR 'Worksheet gift_dealer_manage does not exist.'
+2020-05-18 09:58:46,961  test_api ERROR replace_placeholder 'Worksheet common_data does not exist.'
+2020-05-18 09:59:42,727  test_api ERROR replace_placeholder 'Worksheet common_data does not exist.'
+2020-05-18 10:01:16,736  test_api ERROR replace_placeholder 'Worksheet common_data does not exist.'
+2020-05-18 10:03:17,681  test_api ERROR replace_placeholder unsupported operand type(s) for +: 'NoneType' and 'int'
+2020-05-18 10:05:32,629  test_api ERROR replace_placeholder unsupported operand type(s) for +: 'NoneType' and 'int'
+2020-05-18 10:06:31,718  test_api ERROR 请求出错了HTTPConnectionPool(host='youli.uban360.nethttp', port=80): Max retries exceeded with url: //youli.uban360.net/gift-manager/pay-account/withdraw?amount=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111d34950>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2020-05-18 10:06:32,217  test_api ERROR 请求出错了HTTPConnectionPool(host='youli.uban360.nethttp', port=80): Max retries exceeded with url: //youli.uban360.net/gift-manager/pay-account/withdraw?amount=10000000000000 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111f18fd0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
